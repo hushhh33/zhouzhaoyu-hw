@@ -16,5 +16,11 @@
             "command": "extension.execute",
             "priority": 4
         }
-    ]
+    ],
+    "cmake.generator": "MinGW Makefiles",
+    "files.associations": {
+        "algebra.h": "c",
+        "stdio.h": "c",
+        "math.h": "c"
+    },
 }

@@ -9,6 +9,9 @@ typedef struct Matrix {
     double data[MAX_MATRIX_SIZE][MAX_MATRIX_SIZE];  // 矩阵的数据
 } Matrix;
 
+int max(int a, int b);
+int min(int a, int b);
+
 /**
  * @brief 创建矩阵
  * @param rows 矩阵的行数
@@ -89,5 +92,8 @@ double trace_matrix(Matrix a);
  * @param a 矩阵a
 */
 void print_matrix(Matrix a);
+
+Matrix yuzishimartrix(Matrix a,int i,int j);
+//i&j都是矩阵的实际数值，不是从0开始的
 
 #endif
